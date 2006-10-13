@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=csboard
+Comment[pl]=Szachy
+Exec=csboard
+Icon=csboard.png
+Terminal=false
+Type=Application
+Categories=Game;BoardGame;
+# vi: encoding=utf-8
