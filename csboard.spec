@@ -1,5 +1,5 @@
-Summary:	CSBoard is a small GUI for gnuchess
-Summary(pl):	CSBoard jest ma³ym frontendem do gnuchess
+Summary:	CSBoard - a small GUI for gnuchess
+Summary(pl):	CSBoard - ma³y frontend do gnuchess
 Name:		csboard
 Version:	0.6
 Release:	1
@@ -23,13 +23,17 @@ CSBoard is a small GUI for gnuchess. It is written in C# and uses mono
 and gtk-sharp. It is simple, but allows you just play chess with SVG
 graphics and native look and desktop theme usage.
 
-CSBoard use gnuchess as playing engine, but you can also play with
+CSBoard uses gnuchess as playing engine, but you can also play with
 crafty of phalanx.
 
 %description -l pl
 CSBoard jest ma³ym frontendem do gnuchess. Zosta³ napisany w jêzyku C#
-i wykorzystuje mono i bibliotekê gtk-sharp. Jest prosty, ale pozwala
-na grê w szachy wykorzystuj±c grafikê wektorow± SVG,
+i wykorzystuje mono oraz bibliotekê gtk-sharp. Jest prosty, ale
+pozwala na grê w szachy z wykorzystaniem grafiki wektorowej SVG i
+natywnym wygl±dem oraz u¿yciem motywu pulpitu.
+
+CSBoard jako silnik gry wykorzystuje gnuchess, ale mo¿na graæ tak¿e
+przy u¿yciu crafty of phalanx.
 
 %prep
 %setup -q
@@ -40,7 +44,6 @@ na grê w szachy wykorzystuj±c grafikê wektorow± SVG,
 	--disable-schemas-install \
 	--disable-scrollkeeper
 %{__make}
-
 
 %install
 rm -rf $RPM_BUILD_ROOT
