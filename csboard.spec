@@ -81,7 +81,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/csboard/csboard.exe
 %{_datadir}/csboard/images/*
 %{_datadir}/csboard/resource/*
-%{_desktopdir}/*
+%{_desktopdir}/*.desktop
 %{_omf_dest_dir}/%{name}
 %{_pixmapsdir}/*
 %{_sysconfdir}/gconf/schemas/csboard.schemas
