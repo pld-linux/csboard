@@ -1,5 +1,5 @@
 Summary:	CSBoard - a small GUI for gnuchess
-Summary(pl.UTF-8):   CSBoard - mały frontend do gnuchess
+Summary(pl.UTF-8):	CSBoard - mały frontend do gnuchess
 Name:		csboard
 Version:	0.6
 Release:	1
