@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=csboard
+Comment=Chess
 Comment[pl]=Szachy
 Exec=csboard
 Icon=csboard
